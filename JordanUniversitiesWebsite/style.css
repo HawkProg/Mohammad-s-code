@@ -1,6 +1,4 @@
-
-
-#nav-ul{
+#nav-ul {
     list-style-type: none;
     border: 1px solid #000000;
     background-color: #d7d7d7;
@@ -12,54 +10,98 @@
     background-color: #d7d7d7;
 }
 
-#nav-ul li a{
+#nav-ul li a {
 
-    display: inline-block;  
-     padding: 10px 20px;
-     text-decoration: none;  
-     color: #2c2c2c;
-     transition: color 0.3s;
-          
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #2c2c2c;
+    transition: color 0.3s;
+
 }
-#nav-ul li a:hover {    
- color: #797979;
-    }
 
-#ul2 li{
+#nav-ul li a:hover {
+    color: #797979;
+}
+
+#ul2 li {
     list-style-type: none;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-right: 0%;
+}
+h1{
+    text-align:center ;
+}
+#ul2{
+    margin-right: 0;
+}
+#div-central {
+    display: flex;
 }
 
-#div-central{
-    display:flex;
+.div-element {
+    flex: 2;
 }
-.div-element{
-    flex: 1;
+iframe{
+    width:70%;
+}
+
+#map {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    text-align: center;
+
+
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 
+h1,
+p {
+    text-align: center;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+video {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    margin-left: 200dp ;
+}
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .facebook, .insta, .youtube {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .facebook:hover, .insta:hover, .youtube:hover {
+    background-color: #000000; 
+    color: #fff;
+  }
+  
+  .inta {
+    background-color: #000000; 
+  }
+  
+  .youtube {
+    background-color:#fff;
+    color:#000
+  }
+  
